@@ -60,6 +60,7 @@ function App() {
             addContactHandler ={addContactHandler}/>)}/>
          
          <Route path ="/contact/:id" component  ={ContactDetail}/>
+         
          </Switch>
          </Router>
          
