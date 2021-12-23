@@ -7,7 +7,6 @@ import AddContact from "./AddContact"
 import ContactList from "./ContactList"
 import ContactDetail from "./ContactDetail.jsx"
 
-
 function App() {
   const LOCAL_STORAGE_KEY = "contacts"
   const getLocalItems  =()=>{
@@ -60,6 +59,7 @@ function App() {
             addContactHandler ={addContactHandler}/>)}/>
          
          <Route path ="/contact/:id" component  ={ContactDetail}/>
+        
          
          </Switch>
          </Router>

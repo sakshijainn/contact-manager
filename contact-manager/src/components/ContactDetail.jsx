@@ -6,7 +6,7 @@ const ContactDetail = (props) => {
   const {name,email} = props.location.state.contact
    return (
     <div className ="main">
-        <div className ="ui card centered">
+        <div  style={{marginTop:"7em", padding:"10px"}}className ="ui card centered">
             <div className ="image">
                 <img src ={user} alt="user"/>
             </div>
@@ -20,7 +20,7 @@ const ContactDetail = (props) => {
             </div>
             <div className ="center-div">
                 <Link to ="/">
-                <button className ="ui button blue center">Back to Contact List</button>
+                <button style={{marginLeft :"4rem"}} className ="ui button blue center">Back to Contact List</button>
                 </Link>
             </div>
         </div>
